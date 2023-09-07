@@ -19,6 +19,8 @@ local parts = {
 
 --thanks katt for helping with rendering in GUIs
 function events.render(delta, context)
+    local trigger = context == "FIGURA_GUI" or context == "PAPERDOLL" or context == "MINECRAFT_GUI" or player:isGliding() or player:isVisuallySwimming()
+
     for index, part in ipairs(parts) do
         if parts[index + 1] then
             part.vector = parts[index + 1].vector
@@ -27,7 +29,7 @@ function events.render(delta, context)
             part.vector = player:getPos(delta) * 16
             part.yaw = player:getRot().y
         end
-        if context == "FIGURA_GUI" or context == "PAPERDOLL" or context == "MINECRAFT_GUI" then
+        if trigger then
           part.part:setPos():setRot()
         else
           part.part:setPos(part.vector):setRot(0, -part.yaw + 180, 0)
@@ -35,7 +37,7 @@ function events.render(delta, context)
     end
     if context == "FIRST_PERSON" then
       models.model.World:setVisible(false)
-    elseif context == "FIGURA_GUI" or context == "PAPERDOLL" or context == "MINECRAFT_GUI" then
+    elseif trigger then
       models.model.World:setParentType("NONE"):setVisible(true)
     else
       models.model.World:setParentType("WORLD"):setVisible(true)
