@@ -11,6 +11,10 @@ A W.D. Gaster avatar for Figura.
 - Take the folder from inside the .zip file and move it inside your Figura avatars folder
 - Profit
 
+## Features
+- Magma Cube-like body animations.
+- Keybind for turning eyes on. Plays "snd_mysterygo."
+
 ## Customization
 - Textures can be modified, although you may have to refresh them within Blockbench, I'm unsure.
 - The sound can also be swapped out, but come on, it's too iconic.
