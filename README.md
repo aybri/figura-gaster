@@ -14,6 +14,7 @@ A W.D. Gaster avatar for Figura.
 ## Features
 - Magma Cube-like body animations.
 - Keybind for turning eyes on. Plays "snd_mysterygo."
+- Custom death animation. Temporarily activates "Eyes On" mode with additional effects.
 
 ## Customization
 - Textures can be modified, although you may have to refresh them within Blockbench, I'm unsure.
