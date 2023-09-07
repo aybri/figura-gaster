@@ -6,7 +6,7 @@ renderer:shadowRadius(0)
 --"DEATH": when dying, special animation
 local status, last_status = "DEFAULT", "DEFAULT"
 
---texture setup
+--default texture/model setup
 models.model.Head.Group.Head:setSecondaryTexture("custom", textures.head_eyes_e)
     :setSecondaryRenderType("NONE")
 models.model.Head.Group.HeadLayer:setSecondaryTexture("custom", textures.head_eyes_e)
@@ -44,6 +44,30 @@ function eyesKey.press()
     end
 end
 
+--handle dapper gaster
+local hatKey = keybinds:newKeybind("Toggle Dapper-Gaster","key.keyboard.equal")
+
+local isHatEnabled = config:load("hat_visible") --if nil, still works. it's a false-ish value
+
+function pings.hatToggle(isHatEnabled)
+    models.model.Head.Group.Hat:setVisible(isHatEnabled)
+end
+
+pings.hatToggle(isHatEnabled)
+
+function hatKey.press()
+    isHatEnabled = not isHatEnabled
+
+    config:save("hat_visible", isHatEnabled)
+    pings.hatToggle(isHatEnabled)
+
+    if isHatEnabled then
+        log("Dapper-Gaster On")
+    else
+        log("Dapper-Gaster Off")
+    end
+end
+
 --list of body parts
 local parts = {
     {part = models.model.World.Body3, vector = vectors.vec(0,0,0), yaw = 0},
@@ -51,6 +75,8 @@ local parts = {
     {part = models.model.World.Body1, vector = vectors.vec(0,0,0), yaw = 0},
     {part = models.model.World.Body, vector = vectors.vec(0,0,0), yaw = 0},
 }
+
+local leftArmRot, rightArmRot = models.model.LeftArm:getRot(), models.model.RightArm:getRot()
 
 --thanks katt for helping with rendering in GUIs
 function events.render(delta, context)
@@ -69,10 +95,10 @@ function events.render(delta, context)
                 .Group:setParentType("NONE")
             models.model.LeftArm:setParentType("LEFT_ARM")
                 :setPos()
-                :setRot()
+                :setRot(leftArmRot)
             models.model.RightArm:setParentType("RIGHT_ARM")
                 :setPos()
-                :setRot()
+                :setRot(rightArmRot)
 
             if not isEyesEnabled then
                 pings.eyesToggle(isEyesEnabled)
