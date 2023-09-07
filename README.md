@@ -1,9 +1,9 @@
-# fig_gaster
+# figura-gaster
 A W.D. Gaster avatar for Figura.
 
-![2023-09-06_20 11 51](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/a7725caa-c96f-461d-9a6b-57d92c0e9bb2)
-https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/7676bfbd-761c-42a7-bbef-9731f7c5d21a
-https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/375e598f-c853-4ed3-bd2f-b0bef2f97a28
+![Screenshot of avatar.](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/a7725caa-c96f-461d-9a6b-57d92c0e9bb2)
+![Video of avatar body animations.](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/7676bfbd-761c-42a7-bbef-9731f7c5d21a)
+![Video of "eyes mode."](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/375e598f-c853-4ed3-bd2f-b0bef2f97a28)
 
 ## Installation
 - Click the green "Code" button
