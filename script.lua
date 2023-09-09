@@ -80,6 +80,8 @@ local leftArmRot, rightArmRot = models.model.LeftArm:getRot(), models.model.Righ
 
 --thanks katt for helping with rendering in GUIs
 function events.render(delta, context)
+    if not player:isLoaded() then return end
+    
     --handle status switching
     last_status = status
 
