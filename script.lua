@@ -106,7 +106,7 @@ function events.render(delta, context)
         end
 
         --real stuff
-        local trigger = context == "FIGURA_GUI" or context == "PAPERDOLL" or context == "MINECRAFT_GUI" or player:isGliding() or player:isVisuallySwimming()
+        local trigger = context == "FIGURA_GUI" or context == "PAPERDOLL" or context == "MINECRAFT_GUI" or player:isGliding() or player:isVisuallySwimming() or player:getGamemode() == "SPECTATOR" or player:isInvisible()
 
         for index, part in ipairs(parts) do
             if parts[index + 1] then
