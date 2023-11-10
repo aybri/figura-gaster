@@ -1,8 +1,8 @@
 local action = action_wheel:newAction()
     :setTitle("Sounds Disabled")
-    :setTexture(textures["textures.toggles"], 60, 0, 15, 16)
+    :setTexture(textures["textures.toggles"], 15*4, 0, 15, 16)
     :setToggleTitle("Sounds Enabled (OTHERS CAN HEAR)")
-    :setToggleTexture(textures["textures.toggles"], 75, 0, 15, 16)
+    :setToggleTexture(textures["textures.toggles"], 15*5, 0, 15, 16)
 
 local startup = true
 

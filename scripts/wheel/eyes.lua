@@ -1,8 +1,8 @@
 local action = action_wheel:newAction()
     :setTitle("Sleeping")
-    :setTexture(textures["textures.toggles"], 0, 0, 15, 16)
+    :setTexture(textures["textures.toggles"], 15*0, 0, 15, 16)
     :setToggleTitle("Awake")
-    :setToggleTexture(textures["textures.toggles"], 15, 0, 15, 16)
+    :setToggleTexture(textures["textures.toggles"], 15*1, 0, 15, 16)
 
 models.model.Head.Head:setSecondaryTexture("custom", textures["textures.head_eyes"])
 

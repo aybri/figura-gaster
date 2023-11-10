@@ -1,8 +1,8 @@
 local action = action_wheel:newAction()
     :setTitle("Hat Disabled")
-    :setTexture(textures["textures.toggles"], 30, 0, 15, 16)
+    :setTexture(textures["textures.toggles"], 15*2, 0, 15, 16)
     :setToggleTitle("Hat Enabled")
-    :setToggleTexture(textures["textures.toggles"], 45, 0, 15, 16)
+    :setToggleTexture(textures["textures.toggles"], 15*3, 0, 15, 16)
 
 function pings.hatToggle(isHatEnabled)
     models.model.Head.Hat:setVisible(isHatEnabled)

@@ -9,14 +9,10 @@ action_wheel:setPage(page)
 page:setAction(-1, require("scripts.wheel.eyes"))
     :setAction(-1, require("scripts.wheel.hat"))
     :setAction(-1, require("scripts.wheel.sounds"))
+    :setAction(-1, require("scripts.wheel.outline"))
 
 --list of body parts
-local parts = {
-    {part = models.model.World.Body3, vector = vectors.vec(0,0,0), yaw = 0},
-    {part = models.model.World.Body2, vector = vectors.vec(0,0,0), yaw = 0},
-    {part = models.model.World.Body1, vector = vectors.vec(0,0,0), yaw = 0},
-    {part = models.model.World.Body, vector = vectors.vec(0,0,0), yaw = 0},
-}
+local parts = require("scripts.parts")
 
 --thanks katt for helping with rendering in GUIs
 function events.render(delta, context)

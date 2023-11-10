@@ -3,13 +3,12 @@ A W.D. Gaster avatar for Figura.
 
 ## To-Do
 - Add alternate textures (one more accurate to original source, herobrine themed one, maybe a skulk one?)
-- Add toggleable outline (per suggestion of a friend)
 - Re-add custom death animation (make it look nicer and be less buggy)
 - *Figura* out how the hell GitHub Actions works (in order to have proper automatic releases)
 
 ![Screenshot of avatar.](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/a7725caa-c96f-461d-9a6b-57d92c0e9bb2)
 ![Video of avatar body animations.](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/7676bfbd-761c-42a7-bbef-9731f7c5d21a)  
-![Video of "eyes mode."](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/375e598f-c853-4ed3-bd2f-b0bef2f97a28)
+![Video of "awake" face.](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/375e598f-c853-4ed3-bd2f-b0bef2f97a28)
 ![Image of "Dapper-Gaster" mode.](https://github.com/aybri/figura-gaster/assets/61766021/b14579ee-f775-4bd7-8274-ddcf1793f29b)
 
 ## Installation
@@ -24,6 +23,7 @@ A W.D. Gaster avatar for Figura.
 - Toggle for turning on sounds. (Currently just toggles whether snd_mysterygo plays upon activating the "awake" face.)
 - Toggle for wearing a top hat.
   - [Inspired by this animation.](https://www.youtube.com/watch?v=WKJxIYve4QA)
+- Toggle for an outline.
 
 ## Customization
 - Textures can be modified, although you may have to refresh them within Blockbench, I'm unsure.
