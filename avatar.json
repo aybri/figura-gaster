@@ -4,5 +4,5 @@
   "authors": ["Discord: aybri", "MC: EmeraldImpulse", "Tumblr: aybri", "Site: emeraldimpulse.com"],
   "version":"0.1.2",
   "color":"666666",
-  "autoScripts":["script"]
+  "autoScripts":["main"]
 }

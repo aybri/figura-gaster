@@ -14,15 +14,14 @@ A W.D. Gaster avatar for Figura.
 
 ## Features
 - Magma Cube-like body animations.
-- Keybind for turning eyes on. Plays "snd_mysterygo."
-- Keybind for activating "Dapper-Gaster." Is saved using the `config` API.
+- Toggle for switching between the different faces.
+- Toggle for turning on sounds. (Currently just toggles whether snd_mysterygo plays upon activating the "awake" face.)
+- Toggle for wearing a top hat.
   - [Inspired by this animation.](https://www.youtube.com/watch?v=WKJxIYve4QA)
-- Custom death animation. Temporarily activates "Eyes On" mode with additional effects.
 
 ## Customization
 - Textures can be modified, although you may have to refresh them within Blockbench, I'm unsure.
 - The sound can also be swapped out, but come on, it's too iconic.
-- Keybinds are modifiable via the figura menu. 
 
 ## Copyright
 - The character depicted in this avatar is "W.D. Gaster" (technically, "Mystery Man") from *Undertale*, created by Toby Fox. All rights for the character go to him.
