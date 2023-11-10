@@ -1,5 +1,11 @@
-# figura-gaster
+# figura-gaster v2
 A W.D. Gaster avatar for Figura.
+
+# To-Do
+- Add alternate textures (one more accurate to original source, herobrine themed one, maybe a skulk one?)
+- Add toggleable outline (per suggestion of a friend)
+- Re-add custom death animation (make it look nicer and be less buggy)
+- *Figura* out how the hell GitHub Actions works (in order to have proper automatic releases)
 
 ![Screenshot of avatar.](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/a7725caa-c96f-461d-9a6b-57d92c0e9bb2)
 ![Video of avatar body animations.](https://github.com/EmeraldImpulse7/figura-gaster/assets/61766021/7676bfbd-761c-42a7-bbef-9731f7c5d21a)  

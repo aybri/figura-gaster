@@ -32,7 +32,7 @@ local startup = nil
 local counter = 0
 function events.TICK()
     counter = counter + 1
-    if counter >= 12000 then
+    if counter >= 600 then
         pings.hatToggle(config:load("HAT"))
         counter = 0
     end
