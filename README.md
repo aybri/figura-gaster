@@ -1,7 +1,7 @@
 # figura-gaster v2
 A W.D. Gaster avatar for Figura.
 
-# To-Do
+## To-Do
 - Add alternate textures (one more accurate to original source, herobrine themed one, maybe a skulk one?)
 - Add toggleable outline (per suggestion of a friend)
 - Re-add custom death animation (make it look nicer and be less buggy)
