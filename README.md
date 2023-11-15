@@ -2,7 +2,7 @@
 A W.D. Gaster avatar for Figura.
 
 ## To-Do
-- Add alternate textures (one more accurate to original source, herobrine themed one, maybe a skulk one?)
+- Add more alternate skins (herobrine themed, sculk themed, etc)
 - Re-add custom death animation (make it look nicer and be less buggy)
 - *Figura* out how the hell GitHub Actions works (in order to have proper automatic releases)
 
@@ -26,7 +26,7 @@ A W.D. Gaster avatar for Figura.
 - Toggle for an outline.
 
 ## Customization
-- Textures can be modified, although you may have to refresh them within Blockbench, I'm unsure.
+- [Alternate skins.](./skins/README.md)
 - The sound can also be swapped out, but come on, it's too iconic.
 
 ## Copyright
