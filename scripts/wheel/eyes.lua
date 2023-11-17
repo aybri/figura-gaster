@@ -31,7 +31,7 @@ action:setOnToggle(function(state, action)
     else sounds = config:load("SOUNDS")
     end
 
-    pings.eyesToggle(state, config:load("SOUNDS"))
+    pings.eyesToggle(state, sounds)
 
     if not startup then
         if state then
