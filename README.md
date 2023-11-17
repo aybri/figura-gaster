@@ -2,6 +2,7 @@
 A W.D. Gaster avatar for Figura.
 
 ## To-Do
+- Add updated images
 - Add more alternate skins (herobrine themed, sculk themed, etc)
 - Re-add custom death animation (make it look nicer and be less buggy)
 - *Figura* out how the hell GitHub Actions works (in order to have proper automatic releases)
